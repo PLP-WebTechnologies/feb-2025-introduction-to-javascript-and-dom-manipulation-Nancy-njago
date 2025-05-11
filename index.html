@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive JS Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .highlight {
+      color: darkblue;
+      font-weight: bold;
+    }
+    #remove-button {
+      margin-top: 10px;
+      padding: 8px;
+      background-color: lightcoral;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+    section {
+      margin-top: 30px;
+      padding: 15px;
+      background-color: #f0f8ff;
+      border-left: 5px solid #007acc;
+    }
+    h2 {
+      color: #007acc;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 id="title">Welcome to the Page</h1>
+  <p id="description">This is a sample paragraph that will change dynamically.</p>
+  
+  <button id="change-text">Change Text & Style</button>
+  <button id="add-item">Add New Item</button>
+  <button id="remove-button">Remove This Button</button>
+
+  <ul id="list">
+    <li>First Item</li>
+  </ul>
+
+  <section>
+    <h2>What Does a Geospatial Engineer Do?</h2>
+    <p>
+      A Geospatial Engineer applies mapping and data science techniques to plan, analyze,
+      and manage infrastructure, natural resources, and urban development. By leveraging 
+      technologies such as GIS, remote sensing, and CAD, they provide location-based 
+      intelligence essential to fiber network design, urban planning, and environmental monitoring.
+    </p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
